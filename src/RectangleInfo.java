@@ -5,7 +5,7 @@ public class RectangleInfo {
         Scanner scanner = new Scanner(System.in);
         double width;
         double height;
-
+// width
       do {
           System.out.println("Enter rectangle width.");
           while (!scanner.hasNextDouble()) {
@@ -15,7 +15,7 @@ public class RectangleInfo {
           }
           width = scanner.nextDouble();
       }while (width<= 0);
-
+//height
       do {
           System.out.print("Enter rectangle height.");
           while (!scanner.hasNextDouble()) {
@@ -31,7 +31,7 @@ public class RectangleInfo {
         double recPerimeter=(width*2)+(height*2);
         double recDiagnol=Math.sqrt((height*height)+(width*width));
 
-        //output
+        //output calculations
         System.out.println("The area of the rectangle is "+recArea);
         System.out.println("The perimeter is "+recPerimeter);
         System.out.println("The diagnol of the rectangle is "+recDiagnol);
