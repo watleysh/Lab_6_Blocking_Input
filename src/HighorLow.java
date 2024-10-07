@@ -1,13 +1,10 @@
-import java.util.Scanner;
+import java.util.Random;
 
 public class HighorLow {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Random random = new Random();
+        int randomNum= (int)(Math.random()*11);
 
-
-
-
-
-
+        System.out.print(randomNum);
     }
 }
